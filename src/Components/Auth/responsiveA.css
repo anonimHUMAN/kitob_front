@@ -1,0 +1,29 @@
+/* SignIn */
+@media (max-width: 1044px) {
+    .main1 .right {
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 842px) {
+    .main1 .right {
+        padding-right: 70px;
+    }
+}
+
+@media (max-width: 744px) {
+    .main1 .left{
+        display: none;
+    }
+    .main1 .right {
+        width: 100%;
+        padding-right: 70px;
+    }
+}
+
+@media (max-width: 458px){
+    .main1 .right {
+        padding-right: 40px;
+        padding-left: 40px;
+    }   
+}

@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+/* Home Super Admin */
+.Sadmin {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e3e2e2c0;
+}
+
+.Sadmin .topnav {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(136, 136, 136, 0.768);
+    box-shadow: 0 0 10px 2px;
+    padding: 15px;
+    padding-left: 50px;
+}
+
+.Sadmin .topnav h1 {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.Sadmin .center1 {
+    width: 100%;
+    display: flex;
+    align-items: start;
+}
+
+.Sadmin .center1 .leftnav {
+    width: 300px;
+    height: 90vh;
+    background-color: rgba(136, 136, 136, 0.574);
+    padding: 10px;
+}
+
+.Sadmin .center1 .leftnav h4 {
+    font-size: 20px;
+    color: rgba(0, 0, 255, 0.697);
+}
+
+.Sadmin .center1 .leftnav .cr {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    gap: 10px;
+    padding-left: 5px;
+    margin-top: 30px;
+}
+
+.Sadmin .center1 .leftnav .cr:hover {
+    background-color: #2e2a2a;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Sadmin .center1 .leftnav .cr:hover i {
+    color: #FFFFFF;
+}
+
+.Sadmin .center1 .leftnav .cr:hover h1 {
+    color: #d2cece;
+}
+
+.Sadmin .center1 .leftnav .cr i {
+    font-size: 23px;
+    margin-top: 4px;
+    color: #2e2a2a;
+}
+
+.Sadmin .center1 .leftnav .cr h1 {
+    font-size: 25px;
+    color: #643636;
+}
+
+.Sadmin .center1 .rightSide {
+    width: 70%;
+}
+
+.Sadmin .center1 .rightSide .cards {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.Sadmin .center1 .rightSide .cards .card {
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 1px 10px 1px;
+    border-radius: 10px;
+}
+
+.Sadmin .center1 .rightSide .cards .card:hover {
+    box-shadow: 2px 1px 10px 1px;
+    cursor: pointer;
+}
+
+.Sadmin .center1 .rightSide .cards .card i {
+    font-size: 40px;
+}
+
+.Sadmin .center1 .rightSide .author {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Sadmin .center1 .rightSide .author .l {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Sadmin .center1 .rightSide .author .l i {
+    font-size: 100px;
+}
+
+.Sadmin .center1 .rightSide .author .l input {
+    color: #2e2a2a;
+}
+
+.Sadmin .center1 .rightSide .author .r {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Sadmin .center1 .rightSide .author .r h1 {
+    font-size: 30px;
+}
+
+.Sadmin .center1 .rightSide .author .r input {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #AAAAAA;
+}
+
+.Sadmin .center1 .rightSide .author .r button {
+    padding: 20px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #152540;
+    border: none;
+    border-radius: 20px;
+}
+
+.Sadmin .center1 .rightSide .book {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.Sadmin .center1 .rightSide .book .l {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Sadmin .center1 .rightSide .book .l i {
+    font-size: 100px;
+}
+
+.Sadmin .center1 .rightSide .book .l input {
+    color: #2e2a2a;
+}
+
+.Sadmin .center1 .rightSide .book .r {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Sadmin .center1 .rightSide .book .r h1 {
+    font-size: 30px;
+}
+
+.Sadmin .center1 .rightSide .book .r input {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #AAAAAA;
+}
+
+.Sadmin .center1 .rightSide .book .r button {
+    padding: 20px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #152540;
+    border: none;
+    border-radius: 20px;
+}
+
+.Sadmin .center1 .rightSide .authors {
+    width: 100%;
+    height: 80vh;
+    padding: 20px;
+}
+
+.Sadmin .center1 .rightSide .authors table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.Sadmin .center1 .rightSide .authors td,
+.Sadmin .center1 .rightSide .authors th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.Sadmin .center1 .rightSide .authors tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.Sadmin .center1 .rightSide .ucers {
+    width: 100%;
+    height: 80vh;
+    padding: 20px;
+}
+
+.Sadmin .center1 .rightSide .ucers table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.Sadmin .center1 .rightSide .ucers td,
+.Sadmin .center1 .rightSide .ucers th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.Sadmin .center1 .rightSide .ucers tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.Sadmin .center1 .rightSide .admins {
+    width: 100%;
+    height: 80vh;
+    padding: 20px;
+}
+
+.Sadmin .center1 .rightSide .admins table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.Sadmin .center1 .rightSide .admins td,
+.Sadmin .center1 .rightSide .admins th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.Sadmin .center1 .rightSide .admins tr:nth-child(even) {
+    background-color: #dddddd;
+}

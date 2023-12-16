@@ -1,0 +1,226 @@
+/* Bosh sahifa */
+@media (max-width: 946px) {
+    .main .navbar .c {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 700px) {
+    .main .navbar .c {
+        display: none;
+    }
+
+    .main .navbar .c11 {
+        display: block;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 40px;
+    }
+
+    .main .navbar .c11 .c1 {
+        display: flex;
+        align-items: end;
+        gap: 10px;
+    }
+
+    .main .navbar .c11 .c1 i {
+        color: #f1ffa3;
+        font-size: 29px;
+        margin-top: 7px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 514px) {
+    .main .container .kateg h1 {
+        font-size: 25px;
+    }
+}
+
+/* Muallif */
+@media (max-width: 906px) {
+    .main .cent .right h1 {
+        font-size: 35px;
+    }
+
+    .main .cent .right h3 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    .main .cent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main .cent .left {
+        width: 100%;
+    }
+
+    .main .cent .left img {
+        width: 50%;
+    }
+
+    .main .cent .left .bott {
+        gap: 30px;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        margin-left: 20px;
+    }
+
+    .main .cent .right {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+/* Home */
+@media (max-width: 1069px) {
+    .home .b2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home .b2 .l .cards {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .home .b2 .r .cards {
+        width: 100%;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 815px) {
+    .home .b2 {
+        width: 100%;
+        align-items: center;
+    }
+
+    .home .b2 .l .cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 857px) {
+    .main .home>.card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+/* Profile */
+@media (max-width: 838px) {
+    .body .top .l {
+        width: 150px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .body .pass {
+        width: 700px;
+    }
+
+    .body .pass {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+}
+
+@media (max-width: 748px) {
+    .body .top .l {
+        width: 130px;
+    }
+
+    .body .pass {
+        width: 600px;
+    }
+}
+
+@media (max-width: 648px) {
+    .body .pass {
+        width: 600px;
+    }
+}
+
+@media (max-width: 634px) {
+    .body .pass {
+        width: 500px;
+        padding-left: 0;
+    }
+
+    .body .pass .r {
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .body .pass .r .all2 {
+        display: grid;
+    }
+}
+
+@media (max-width: 552px) {
+    .body .top .l {
+        width: 100px;
+    }
+
+    .body .top .ll {
+        background-color: #FFFFFF;
+    }
+
+    .body .top .l .num {
+        padding: 5px 10px 5px 10px;
+    }
+
+    .body .top .l .num h1 {
+        font-size: 10px;
+    }
+
+    .body .top .l h2 {
+        font-size: 10px;
+    }
+
+    .body .pass {
+        width: 400px;
+    }
+}
+
+@media (max-width: 438px) {
+    .body .top .l {
+        width: 80px;
+    }
+
+    .body .pass {
+        width: 300px;
+    }
+
+    .body .pass img {
+        width: 100px;
+    }
+.body .pass .l .all .ico {
+    width: 20px;
+}
+}
