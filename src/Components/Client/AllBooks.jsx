@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import config from "../../qwe/config";
 import axios from "axios";
 
-function Muallif2() {
+function AllBooks() {
     const [search, setSearch] = useState(false)
     const [search1, setSearch1] = useState(true)
     const [open, setOpen] = useState(true)
@@ -44,13 +44,13 @@ function Muallif2() {
         setOpen(!open)
         setClose(!close)
     };
-    const getAuthorBooks = async () => {
-        let res = await axios.get(`${config.url}/routeucer/author/books/${window.localStorage.getItem("idAuthor")}`, {
+    const getBooks = async () => {
+        let res = await axios.get(`${config.url}/routeucer/books`, {
             headers: {
                 authorization: window.localStorage.getItem("token")
             }
         })
-        setBooks(res.data.data.books);
+        setBooks(res.data.ucers);
     }
     const checkToken = () => {
         const token = window.localStorage.getItem('token')
@@ -63,8 +63,8 @@ function Muallif2() {
         }
     };
     useEffect(() => {
-        getAuthorBooks()
         checkToken()
+        getBooks()
     }, [])
 
     return (
@@ -121,7 +121,7 @@ function Muallif2() {
                 <div className="container">
                     <img src={image} alt="" />
                     <div className="kateg">
-                        <h1>Authorning barcha kitoblari</h1>
+                        <h1>Barcha kitoblar</h1>
                         <br />
                         <div className="cards">
                             {books.map((item, i) => {
@@ -149,4 +149,4 @@ function Muallif2() {
     )
 }
 
-export default Muallif2
+export default AllBooks

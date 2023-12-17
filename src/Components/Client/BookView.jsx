@@ -187,7 +187,7 @@ function BookView() {
                     </div>
                     <div className="al1">
                         <h1>Sizga yoqishi mumkin</h1>
-                        <h2 onClick={() => { window.location.replace('/muallif2') }}>Barchasini ko'rish</h2>
+                        <h2 onClick={() => { window.location.replace('/allbooks') }}>Barchasini ko'rish</h2>
                     </div>
                     <div className="cards cards1">
                         {data1[0]?.title && <div className="card1">
